@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: on pull request merge, delete the pr branch
+    name: cleanup pr branch when a pull request is merged
     runs-on: ubuntu-latest
     steps:
     - uses: jasontedor/cleanup-pr-branch-action@master
