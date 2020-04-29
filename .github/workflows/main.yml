@@ -4,7 +4,7 @@ on:
     branches: [ master ]
 
 jobs:
-  cleanup-pr-branch:
+  build:
     name: on pull request merge, delete the pr branch
     runs-on: ubuntu-latest
     steps:
