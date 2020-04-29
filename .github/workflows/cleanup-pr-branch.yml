@@ -1,9 +1,8 @@
-name: cleanup-pr-branch
-on:
-  pull_request:
+name: cleanup pr branch
+on: [ pull_request ]
 
 jobs:
-  cleanup-pr-branch:
+  build:
     name: cleanup pr branch when a pull request is merged
     runs-on: ubuntu-latest
     steps:
