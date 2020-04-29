@@ -3,7 +3,6 @@ on: [ pull_request ]
 
 jobs:
   build:
-    name: cleanup pr branch when a pull request is merged
     runs-on: ubuntu-latest
     steps:
     - uses: jasontedor/cleanup-pr-branch-action@master
