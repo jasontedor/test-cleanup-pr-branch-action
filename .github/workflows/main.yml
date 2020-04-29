@@ -1,6 +1,7 @@
 name: cleanup-pr-branch
 on:
   pull_request:
+    branches: [ master ]
 
 jobs:
   cleanup-pr-branch:
