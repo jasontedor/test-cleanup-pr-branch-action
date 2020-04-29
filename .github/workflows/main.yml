@@ -1,0 +1,10 @@
+name: cleanup-pr-branch
+on:
+  pull_request:
+
+jobs:
+  cleanup-pr-branch:
+    name: on pull request merge, delete the pr branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jasontedor/cleanup-pr-branch-action@master
